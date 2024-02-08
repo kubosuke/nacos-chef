@@ -1,0 +1,13 @@
+[Unit]
+Description=Nacos cluster
+After=network.target
+
+[Service]
+ExecStart=/opt/nacos/nacos/bin/startup.sh -p embedded
+ExecStop=/opt/nacos/nacos/bin/shutdown.sh
+Type=forking
+PrivateTmp=true
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

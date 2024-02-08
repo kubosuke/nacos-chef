@@ -1,0 +1,11 @@
+default['nacos']['version'] = '2.2.3'
+default['nacos']['mysql']['host'] = 'your_maria_db:3306'
+default['nacos']['mysql']['db'] = 'nacos_prod'
+default['nacos']['mysql']['user'] = 'test'
+default['nacos']['mysql']['password'] = 'test'
+default['nacos']['token']['secret'] = 'testetsetsetsetestestsetstset'
+default['nacos']['server']['key'] = 'test'
+default['nacos']['server']['value'] = 'test'
+default['nacos']['server']['ip']['1'] = "100.120.229.130"
+default['nacos']['server']['ip']['2'] = "100.120.229.127"
+default['nacos']['server']['ip']['3'] = "100.120.229.128"
